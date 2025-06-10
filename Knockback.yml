@@ -121,7 +121,6 @@ PROFILES:
     SPRINT-H: 1.2
     SPRINT-V: 1.0
     # Should we dynamically limit player's vertical axis?
-    # LEAKED BY ZIQUE, ENJOY
     Y-LIMIT: true
     # Dynamic vertical axis limit value
     Y-LIMIT-VALUE: 1.2
@@ -143,7 +142,7 @@ PROFILES:
       OVERRIDE: true
       # The delay between a player's ability to damage an entity
       VALUE: 20
-      # LEAKED BY ZIQUE, ENJOY
+     
       # Disables damage ticks for rods and arrows
       BETTER-DETECTION: false
     PROJECTILES:
@@ -213,7 +212,7 @@ PROFILES:
         HORIZONTAL-OFFSET: 0.0
   BOXING:
     TYPE: DETAILED
-    # LEAKED BY ZIQUE, ENJOY
+    
     # Horizontal Multiplier
     HORIZONTAL: 0.56
     # Vertical Value
@@ -273,7 +272,7 @@ PROFILES:
         # Toggle whether an arrow moves you in a straight line
         STRAIGHT-BOOST: false
       FISH-ROD:
-      # LEAKED BY ZIQUE, ENJOY
+     
         # Override vanilla rod knockback with carbon's
         OVERRIDE: true
         # Horizontal knockback dealt by a Fish-Rod
@@ -323,7 +322,7 @@ PROFILES:
         VERTICAL-OFFSET: -20.0
         # Splash potion's horizontal offset
         HORIZONTAL-OFFSET: 0.0
-        # LEAKED BY ZIQUE, ENJOY
+      
   BUILDUHC:
     TYPE: EASY
     # Horizontal Multiplier
@@ -474,7 +473,7 @@ PROFILES:
         # Horizontal knockback dealt by an Arrow
         HORIZONTAL: 1000000.0
         # Vertical knockback dealt by an Arrow
-        # LEAKED BY ZIQUE, ENJOY
+       
         VERTICAL: 2.0
         # Toggle whether an arrow moves you in a straight line
         STRAIGHT-BOOST: true
@@ -549,7 +548,7 @@ PROFILES:
     # When player is hit but attacker is spriting, this value is multiplied with initial kb
     SPRINT-H: 1.0
     SPRINT-V: 1.0
-    # LEAKED BY ZIQUE, ENJOY
+
     # Should we dynamically limit player's vertical axis?
     Y-LIMIT: true
     # Dynamic vertical axis limit value
@@ -577,7 +576,7 @@ PROFILES:
     PROJECTILES:
       Y-LIMIT:
         # Should we limit projectile's vertical kb?
-        # LEAKED BY ZIQUE, ENJOY
+      
         ENABLED: true
         # Vertical limit value of projectiles
         VALUE: 0.4000000059604645
@@ -599,7 +598,7 @@ PROFILES:
         VERTICAL: 0.4
         # Multiplies the amount given with the rod's vector magnitude (Faster/Smoother Rodding)
         SPEED: 2.2
-        # LEAKED BY ZIQUE, ENJOY
+       
       PEARL:
         # Override vanilla pearl knockback with carbon's
         OVERRIDE: true
