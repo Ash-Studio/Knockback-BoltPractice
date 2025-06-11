@@ -1,0 +1,82 @@
+COMBO:
+  # Toggle combo mode
+  ENABLED: false
+  # This is used to track when to move player back down from y axis
+  TICKS: 10
+  # Horizontal velocity of a player in combo mode
+  VELOCITY: -0.05
+  # Vertical velocity of a player in combo mode
+  HEIGHT: 2.5
+DAMAGE-TICKS:
+  # Override vanilla damage ticks with carbon's
+  OVERRIDE: true
+  # The delay between a player's ability to damage an entity
+  VALUE: 20
+  # LEAKED BY ZIQUE, ENJOY
+  # Disables damage ticks for rods and arrows
+  BETTER-DETECTION: false
+PROJECTILES:
+  Y-LIMIT:
+    # Should we limit projectile's vertical kb?
+    ENABLED: true
+    # Vertical limit value of projectiles
+    VALUE: 0.4000000059604645
+  ARROW:
+    # Override vanilla arrow knockback with carbon's
+    OVERRIDE: true
+    # Horizontal knockback dealt by an Arrow
+    HORIZONTAL: 0.4
+    # Vertical knockback dealt by an Arrow
+    VERTICAL: 0.4
+    # Toggle whether an arrow moves you in a straight line
+    STRAIGHT-BOOST: false
+  FISH-ROD:
+    # Override vanilla rod knockback with carbon's
+    OVERRIDE: true
+    # Horizontal knockback dealt by a Fish-Rod
+    HORIZONTAL: 0.4
+    # Vertical knockback dealt by a Fish-Rod
+    VERTICAL: 0.4
+    # Multiplies the amount given with the rod's vector magnitude (Faster/Smoother Rodding)
+    SPEED: 2.2
+  PEARL:
+    # Override vanilla pearl knockback with carbon's
+    OVERRIDE: true
+    # Horizontal knockback dealt by a Pearl
+    HORIZONTAL: 0.4
+    # Vertical knockback dealt by a Pearl
+    VERTICAL: 0.4
+  EXPLODE:
+    # Override vanilla explosion knockback with carbon's
+    OVERRIDE: true
+    # Horizontal knockback dealt by a Explosion
+    HORIZONTAL: 0.4
+    # Vertical knockback dealt by a Explosion
+    VERTICAL: 0.4
+    # Toggle whether an explosion moves you in a straight line
+    STRAIGHT-BOOST: false
+  SNOW-BALL:
+    # Override vanilla snowball knockback with carbon's
+    OVERRIDE: true
+    # Horizontal knockback dealt by a Snowball
+    HORIZONTAL: 0.4
+    # Vertical knockback dealt by a Snowball
+    VERTICAL: 0.4
+  EGG:
+    # Override vanilla egg knockback with carbon's
+    OVERRIDE: true
+    # Horizontal knockback dealt by a Egg
+    HORIZONTAL: 0.4
+    # Vertical knockback dealt by a Egg
+    VERTICAL: 0.4
+  POTION:
+    # Override settings.yml potion settings with this
+    OVERRIDE: false
+    # Splash potion's falling speed
+    SPEED: 0.593
+    # Splash potion's negative y-velocity
+    GRAVITY: 0.05
+    # Splash potion's vertical offset
+    VERTICAL-OFFSET: -20.0
+    # Splash potion's horizontal offset
+    HORIZONTAL-OFFSET: 0.0
