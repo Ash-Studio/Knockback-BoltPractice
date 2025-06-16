@@ -28,3 +28,4 @@ NODEBUFF:
   STOP-SPRINT: true
   # This value is multiplied in horizontal axis after calculations and sprint reset
   SLOWDOWN: 0.55
+  # This value is multiplied in horizontal axis after calculations and sprint reset
