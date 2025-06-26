@@ -1,5 +1,5 @@
 
-**Bolt PvP Knockback Config (1.8) ⚔️🔥**  
+**Bolt PvP Custom Knockback Config (1.8) ⚔️🔥**  
 
 Optimized knockback settings for **Bolt PvP Core (Minecraft 1.8)**, designed for **smooth combos, precise hits, and competitive fights**. This config delivers the best balance of knockback control—perfect for **strafe combos, rod tricks, and fast-paced melee battles**.  
 
